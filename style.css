@@ -1,12 +1,31 @@
 /* style sheet for index page */
+a {
+    all: unset;
+  }
 
-h1 {font-size: 55px;
+
+
+h1 {
+    font-size: 55px;
 background-color: yellow;
+border: 2px solid black;
 text-align: center;
 font-family: 'Courier New', Courier, monospace;}
-#sponge{width: 400px;
-height;}
-.center{display: block;
+#sponge{
+    width: 600px;}
+.center{
+    display: block;
 margin-left: auto;
 margin-right: auto;
 width: 50%;}
+h2 {
+    border: 2px solid black;
+    font-size: 50px;
+    background-color: yellow;}
+button{
+    font-size: 30px;
+    background-color: green;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    border: 2px solid black;
+}
